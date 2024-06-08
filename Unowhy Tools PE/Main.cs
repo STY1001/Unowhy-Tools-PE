@@ -47,5 +47,10 @@ namespace Unowhy_Tools_PE
         {
             Process.Start("cmd.exe", "/k \"utbu\\AutoFlash.bat\"");
         }
+
+        private void wlubtn_Click(object sender, EventArgs e)
+        {
+            Process.Start("wlu\\WLU.exe");
+        }
     }
 }

@@ -40,6 +40,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.wlubtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -55,7 +56,7 @@
             this.lsprbtn.ForeColor = System.Drawing.Color.White;
             this.lsprbtn.Location = new System.Drawing.Point(52, 237);
             this.lsprbtn.Name = "lsprbtn";
-            this.lsprbtn.Size = new System.Drawing.Size(336, 37);
+            this.lsprbtn.Size = new System.Drawing.Size(169, 37);
             this.lsprbtn.TabIndex = 0;
             this.lsprbtn.Text = "Lazersoft Password Recovery";
             this.lsprbtn.UseVisualStyleBackColor = true;
@@ -121,7 +122,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 26);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Version 1.1\r\nWinPE 11 23H2";
+            this.label1.Text = "Version 2.0\r\nWinPE 11 23H2";
             // 
             // pictureBox5
             // 
@@ -183,6 +184,19 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // wlubtn
+            // 
+            this.wlubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.wlubtn.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wlubtn.ForeColor = System.Drawing.Color.White;
+            this.wlubtn.Location = new System.Drawing.Point(227, 238);
+            this.wlubtn.Name = "wlubtn";
+            this.wlubtn.Size = new System.Drawing.Size(161, 37);
+            this.wlubtn.TabIndex = 0;
+            this.wlubtn.Text = "Windows Locking Unlocker";
+            this.wlubtn.UseVisualStyleBackColor = true;
+            this.wlubtn.Click += new System.EventHandler(this.wlubtn_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,6 +215,7 @@
             this.Controls.Add(this.cmdbtn);
             this.Controls.Add(this.eppbtn);
             this.Controls.Add(this.utbubtn);
+            this.Controls.Add(this.wlubtn);
             this.Controls.Add(this.lsprbtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -234,6 +249,7 @@
         private System.Windows.Forms.Button utbubtn;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button wlubtn;
     }
 }
 
