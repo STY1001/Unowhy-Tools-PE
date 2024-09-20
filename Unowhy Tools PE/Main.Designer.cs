@@ -122,7 +122,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 26);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Version 2.0\r\nWinPE 11 23H2";
+            this.label1.Text = "Version 3.0\r\nWinPE 11 23H2";
             // 
             // pictureBox5
             // 
